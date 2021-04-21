@@ -280,7 +280,13 @@ ul {
   font-size: 20px;
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 1083px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 700px) {
   .menu-btn {
     display: block;
   }
@@ -289,8 +295,16 @@ ul {
     opacity: 0.5;
   }
 
-  .main-nav ul.right-menu {
+  /* .main-nav ul.right-menu {
     margin-right: 50px;
+  } */
+
+  .main-nav :not(*) {
+    order: -1;
+    order: 0;
+    order: 1;
+
+    background: black;
   }
 
   .main-nav ul.main-menu {
@@ -348,7 +362,7 @@ ul {
   }
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .home-cards {
     grid-template-columns: 1fr;
   }
