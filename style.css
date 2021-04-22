@@ -29,6 +29,8 @@ ul {
 
 /* Nav */
 .main-nav {
+  position: relative;
+
   display: flex;
   align-items: center;
   height: 60px;
@@ -300,18 +302,22 @@ ul {
     margin-right: 50px;
   } */
 
+  .main-nav .right-menu li {
+    padding: 0;
+  }
+
   .main-nav .right-menu.left-burger {
     order: -1;
   }
 
   .main-nav ul.main-menu {
     position: absolute;
-    top: 0;
+    top: 100%;
     left: 0;
 
     display: block;
     width: 50%;
-    height: 100%;
+    /* height: 100%; */
 
     border-right: #ccc 1px solid;
     margin: 0;
