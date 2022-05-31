@@ -1,3 +1,3 @@
-# ms-homepage
+# Microsoft-Landing-Page
 
-https://nguyenit67.github.io/ms-homepage
+https://nguyenit67.github.io/microsoft-landing-page/
