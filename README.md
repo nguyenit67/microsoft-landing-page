@@ -1,3 +1,3 @@
-# Microsoft-Landing-Page
+# Microsoft Landing Page
 
 https://nguyenit67.github.io/microsoft-landing-page/
